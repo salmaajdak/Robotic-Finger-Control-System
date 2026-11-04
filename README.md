@@ -1,4 +1,4 @@
-# Robotic Finger Control and Signal Filtering
+# Robotic Finger Control System
 
 An experimental robotics project combining Arduino programming, physical prototyping, dynamic modeling, and digital signal processing.
 
