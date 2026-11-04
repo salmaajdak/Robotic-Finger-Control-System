@@ -105,7 +105,27 @@ The main engineering finding is the **trade-off between disturbance attenuation 
 A useful next step would be to measure the actual finger angle with an independent sensor and compare it against the commanded position.
 
 This would allow a more complete evaluation using tracking error, response time, and repeated tests under identical conditions. Further work could also examine the influence of cable tension, mechanical play, and friction.
+## Prototype & Hardware Setup
 
+The experimental setup includes an Arduino Uno, potentiometer-based finger movement sensing, servomotor actuation, and a robotic finger fabricated using 3D printing.
+
+### Complete Experimental Setup
+
+![Complete Arduino and robotic finger setup](images/complete_setup.jpg)
+
+### Robotic Finger Prototype
+
+![Robotic finger prototype](images/robotic_finger.jpg)
+
+### Sensor and Control Setup
+
+![Sensor and Arduino control setup](images/sensor_control_setup.jpg)
+
+### System Flowchart
+
+The following flowchart illustrates the main stages of the control process, from sensor acquisition to robotic finger actuation.
+
+![Robotic finger control flowchart](images/system_flowchart.png)
 ## Author
 
 **Salma Ajdakar**  
