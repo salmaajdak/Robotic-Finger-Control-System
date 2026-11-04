@@ -126,7 +126,32 @@ The experimental setup includes an Arduino Uno, potentiometer-based finger movem
 The following flowchart illustrates the main stages of the control process, from sensor acquisition to robotic finger actuation.
 
 ![Robotic finger control flowchart](images/system_flowchart.png)
-## Author
 
-**Salma Ajdakar**  
-TIPE engineering project — 2024–2025
+
+## Arduino Implementation
+
+The robotic finger is controlled using an Arduino Uno,
+two potentiometer inputs, and two servomotors.
+
+Two versions of the control program were developed to
+evaluate the effect of digital filtering on motion stability.
+
+### Before Filtering
+
+The initial program directly converts potentiometer
+readings into servo motor commands.
+
+[View Arduino Code — Before Filtering](arduino/before_filtering.ino)
+
+### After Filtering
+
+The improved version implements a first-order digital
+low-pass filter with a coefficient of alpha = 0.1.
+
+The filter smooths the sensor readings before converting
+them into servo motor commands.
+
+[View Arduino Code — After Filtering](arduino/after_filtering.ino)
+
+
+
