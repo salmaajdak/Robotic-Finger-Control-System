@@ -30,7 +30,6 @@ To investigate this challenge, I designed and fabricated a **3D-printed robotic 
 The Arduino acquires analog sensor signals and converts them into servo angle commands. The robotic finger is actuated through a cable-driven mechanism using fishing lines.
 
 ### Experimental Setup
-
 ![Complete experimental setup](images/complete_setup.jpg)
 
 ### 3D-Printed Robotic Finger
